@@ -7,7 +7,7 @@ import os
 from io import BytesIO
 import urllib.request
 
-
+#model link : https://drive.google.com/file/d/1KK7Uvt4lBt5mG86WiHcmuj9zHzQoF_-y/view?usp=sharing
 model = load_model(r'D:\DogBreedClassification\efficientnetb4Model.h5')
 labelPath = r'D:\DogBreedClassification\breeds.names'
 
